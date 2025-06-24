@@ -5,7 +5,7 @@ const resultado = document.getElementById ("resultado");
 
 tabuadaform.addEventListener('submit', function(event){
     event.preventDefault()
-    calcularTabuada(numero.value)
+    calcularTabuada(numero.value) 
 })
 function calcularTabuada(numero){
     for(i=1;i<=10;i++){
