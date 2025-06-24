@@ -6,8 +6,13 @@
     <title>Iniciante</title>
 </head>
 <body>
-    
-    <input type="nuber" name="numero" id="numero">
-    <button id="tabuada">Calcule a tabuada desse numero</button>
+    <form action="" id="tabuadaform">
+       
+    <label for="numero">Digite um número</label>
+    <input type="number" name="numero" id="numero" required>
+    <button id="tabuada" type="submit">Calcule a tabuada desse numero</button>
+    </form>
+    <div id="resultado"></div>
+    <script src="script.js"></script>
 </body>
 </html>
